@@ -35,6 +35,10 @@ int main(int argc, char *argv[])
         cout << it->first << ": " << it->second << endl;
     }
 
-
     return a.exec();
 }
+
+
+// Map allows us to store key fine pearls. It is like a lookup table.
+// The idea is that you can stop at some information which you can
+// retrieve with a key.
